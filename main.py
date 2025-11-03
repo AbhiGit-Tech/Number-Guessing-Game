@@ -3,7 +3,8 @@ import art
 
 print(art.logo)
 
-ran = random_number =random.randint(1, 100)
+random_number =random.randint(1, 100)
+ran = random_number
 
 print(ran)
 

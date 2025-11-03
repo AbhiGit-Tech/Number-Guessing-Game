@@ -4,11 +4,9 @@ import art
 print(art.logo)
 
 random_number =random.randint(1, 100)
-<<<<<<< HEAD
+
 ran =random_number
-=======
-ran = random_number
->>>>>>> fa8e1aa791944e6f834175977477df64c757db7b
+
 
 print(ran)
 

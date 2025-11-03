@@ -3,7 +3,8 @@ import art
 
 print(art.logo)
 
-ran = random_number =random.randint(1, 100)
+random_number =random.randint(1, 100)
+ran =random_number
 
 print(ran)
 
@@ -38,13 +39,16 @@ def number_guess():
             print("Too High")
 
 
-        else:
+        elif guess < random_number:
             current_lives -= 1
             print("Too Low")
 
+        else:
+            print(f"You got it! The answer was {guess} .")
 
 
-    print(f"You got it! The answer was {guess} .")
+
+
 
 
 number_guess()
